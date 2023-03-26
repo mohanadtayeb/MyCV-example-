@@ -1,0 +1,168 @@
+
+.exp-card {
+
+    margin-left: 30px;
+
+
+}
+
+#exp{
+    display: flex;
+}
+.bk-image {
+    backdrop-filter: blur(10px);
+    background-image: url("img_1.png");
+    background-color: #2affde;
+    background-repeat: repeat;
+    background-size: cover;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+
+}
+.card-title {
+    color: #a0ff92;
+}
+.info {
+    color: #c1ff37;
+    font-family: "Adobe Caslon Pro Bold";
+    font-size: 20px;
+    animation-name: blink;
+    animation-duration: 5s;
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(30px);
+    padding: 20px 40px;
+    border-radius: 5px;
+    line-height: 1;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-width: thick;
+    border-radius: 20px;
+
+}
+
+.col {
+    margin-bottom: 20px;
+}
+
+.courses {
+    color: #c1ff37;
+}
+@keyframes blink {
+    from {
+        filter: blur(10px);
+    }
+    to  {
+        filter: blur(0px);
+    }
+}
+.header {
+    text-align: center;
+    font-size: 50px;
+    color: #c1ff37;
+    animation-name: wave;
+    animation-duration: 5s;
+    font-family: monospace;
+    background-color: rgba(255,255,255,0.2);
+    border-radius: 30px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+.header-options {
+    text-align: center;
+}
+p {
+    font-size: 20px;
+    color: #c1ff37;
+    animation-name: blink;
+    animation-duration:5s ;
+}
+.card-education {
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    background-color: rgba(0,0,0,0);
+    color: white;
+    animation-name: blink;
+    animation-duration:5s ;
+    border: #00ff15;
+    border-bottom-style: solid;
+
+}
+
+
+.progress {
+    width: 30%;
+    animation-name: blink;
+    animation-duration:5s ;
+}
+.card-img-top {
+  width: 50%;
+}
+@keyframes wave {
+    from {
+    font-size: 1px;
+        filter: blur(2px);
+    }
+    to {
+        font-size: 50px;
+        filter: blur(0px);
+    }
+}
+
+@media screen and (max-width: 1200px){
+    body {
+        background-size: auto;
+    }
+
+}
+.progress-bar {
+    background-color: #22ff00;
+}
+
+@media screen and (max-width: 992px) {
+    .exp-card{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #exp {
+        display: block;
+    }
+    .progress{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+h1 {
+    font-size: 30px;
+}
+    body {
+        background-size: auto;
+    }
+.card-body {
+    font-size: 10px;
+}
+.card-text {
+    font-size: 15px;
+}
+    @keyframes wave {
+        from {
+            font-size: 1px;
+            filter: blur(2px);
+        }
+        to {
+            font-size: 30px;
+            filter: blur(0px);
+        }
+    }
+    .info {
+        font-size: 15px;
+    }
+    .header {
+        font-size: 30px;
+    }
+}
