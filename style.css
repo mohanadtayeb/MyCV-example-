@@ -1,11 +1,15 @@
-
+/* student name: mohanad tayeb , student id: 2040129    */
 .exp-card {
 
     margin-left: 30px;
 
 
 }
-
+#email {
+    color: #c1ff37;
+    font-size: 20px;
+    font-family: "Adobe Caslon Pro Bold";
+}
 #exp{
     display: flex;
 }
@@ -19,6 +23,7 @@
     -webkit-backdrop-filter: blur(10px);
 
 }
+
 .card-title {
     color: #a0ff92;
 }
